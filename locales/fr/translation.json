@@ -1,0 +1,144 @@
+{
+  "about": "À propos",
+  "formation": "Formations",
+  "skill": "Compétences",
+  "contact": "Contact",
+  "experiences_title": "Expériences",
+  "experiences": [
+    {
+      "title": "Stagiaire en Génie Logiciel - Munic",
+      "context": "Stage",
+      "description": [
+        "Conception et développement d'un framework de tests automatisés complet en Python.",
+        "Mise en place d'une architecture modulaire et évolutive facilitant l'intégration de nouveaux tests.",
+        "Développement de tests unitaires et end-to-end pour garantir la robustesse et la fiabilité du système.",
+        "Création d'un tableau de bord Streamlit pour visualiser les résultats des tests et les métriques d'exécution.",
+        "Déploiement de la documentation et des résultats via GitHub Pages."
+      ],
+      "technologies": [
+        "Python",
+        "Tests",
+        "Streamlit",
+        "GitHub Pages",
+        "Automatisation"
+      ]
+    },
+    {
+      "title": "OAPIA - Générateur QCM IA",
+      "context": "Projet IA",
+      "description": [
+        "Développement d'un système IA capable de générer des questions à choix multiples à partir de documents pédagogiques.",
+        "Mise en œuvre d'un pipeline RAG (Retrieval-Augmented Generation) avec deux LLM locaux.",
+        "Création d'une architecture à deux modèles pour l'analyse des documents et la génération de questions.",
+        "Containerisation de l'application complète avec Docker pour reproductibilité et déploiement."
+      ],
+      "technologies": ["Python", "LLM", "RAG", "Docker", "IA"]
+    },
+    {
+      "title": "CinéGraph - Système de recommandation de films",
+      "context": "Projet Data Science",
+      "description": [
+        "Développement d'un système de recommandation de films basé sur le filtrage collaboratif.",
+        "Intégration d'algorithmes de graphes avec NetworkX pour améliorer la qualité des recommandations.",
+        "Création de visualisations interactives pour analyser les relations entre utilisateurs et films.",
+        "Optimisation du traitement des données pour gérer des datasets à grande échelle."
+      ],
+      "technologies": [
+        "Python",
+        "NumPy",
+        "Pandas",
+        "NetworkX",
+        "Matplotlib",
+        "Seaborn"
+      ]
+    },
+    {
+      "title": "Classificateur d'images d'animaux - Deep Learning",
+      "context": "Projet Machine Learning",
+      "description": [
+        "Développement d'un modèle de deep learning pour la classification d'images d'animaux avec PyTorch.",
+        "Mise en œuvre du fine-tuning complet et du transfert de connaissances.",
+        "Création des pipelines de prétraitement, d'entraînement et d'évaluation des données.",
+        "Visualisation des performances et des prédictions via des notebooks interactifs."
+      ],
+      "technologies": ["Python", "PyTorch", "Deep Learning", "Machine Learning"]
+    },
+    {
+      "title": "RobinAI - Plateforme intelligente de gestion de l'eau",
+      "context": "Projet Hackathon",
+      "description": [
+        "Conception d'une plateforme IA pour surveiller et optimiser la consommation d'eau domestique.",
+        "Proposition de modèles de machine learning pour prédire la consommation d'eau sur la base de données historiques.",
+        "Intégration avec des appareils domestiques intelligents pour une gestion coordonnée des ressources.",
+        "Développement du business model et de la stratégie produit via un Business Model Canvas."
+      ],
+      "technologies": [
+        "IA",
+        "Machine Learning",
+        "Analyse de données",
+        "Entrepreneuriat"
+      ]
+    }
+  ],
+  "current_status": "Je suis actuellement étudiant en informatique, avec une spécialisation en Machine Learning et en développement backend.<br /> J'aime créer des systèmes intelligents, des API et des applications qui apportent des solutions à des problèmes concrets.",
+  "like_title": "Ce que j'aime faire",
+  "like": "- Modèles Machine Learning<br/> - API avec Docker<br/> - Applications basées sur l'IA<br/> - Créer quelque chose qui servira vraiment par la suite, et pas seulement là pour me tenir occuper<br/>",
+  "currently_doing": "Project en cours",
+  "doing": "- Javascript & les concepts backend (React, ExpressJS) <br/> - Projet avec deux IA génératives en Python <br/>",
+  "contact_text": "N'hesitez pas à me contacter su vous souhaitez plus d'informations ou juste pour être connecté !",
+  "personal_mail": "Email personnel",
+  "academic_mail": "Email académique",
+  "LinkedIn": "Visitez mon LinkedIn",
+
+  "skills": {
+    "titles": {
+      "hardSkills": "Compétences techniques",
+      "softSkills": "Compétences relationnelles"
+    },
+    "hardSkills": {
+      "python": "Python",
+      "java": "Java",
+      "javascriptReact": "JavaScript / React",
+      "machineLearning": "Machine Learning",
+      "webDevelopment": "Développement web",
+      "linuxNetworks": "Linux & Réseaux"
+    },
+    "softSkills": {
+      "problemSolving": "Résolution de problèmes",
+      "teamworkCollaboration": "Travail d'équipe et collaboration",
+      "projectManagement": "Gestion de projet",
+      "communication": "Communication",
+      "adaptability": "Adaptabilité",
+      "analyticalMindset": "Esprit analytique"
+    }
+  },
+  "formations": {
+    "title": "Formations",
+    "list": [
+      {
+        "title": "EPITA - Programme en alternance en informatique",
+        "period": "Septembre 2026 - Août 2029",
+        "details": ["Pas encore commencé"]
+      },
+      {
+        "title": "Griffith College Dublin - Licence en informatique",
+        "period": "Septembre 2025 - Juin 2026",
+        "details": [
+          "Développement d'applications et interfaces complexes.",
+          "Administration systèmes et réseaux sur Linux.",
+          "Expérience de projet IA appliquée : création d'un agent IA local utilisant plusieurs LLM."
+        ]
+      },
+      {
+        "title": "IA Institut - Digital Business & Data Science",
+        "period": "Septembre 2023 - Juin 2026",
+        "details": [
+          "Analyse de données, visualisation et programmation Python pour les projets.",
+          "Fondamentaux du machine learning et gestion de bases de données.",
+          "Développement web, technologies cloud, gouvernance de l'IA et gestion de projet."
+        ]
+      }
+    ]
+  }
+
+}

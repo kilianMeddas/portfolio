@@ -1,0 +1,142 @@
+{
+  "about": "About",
+  "formation": "Formations",
+  "skill": "Skills",
+  "experiences_title": "Experiences",
+  "contact": "Contact",
+  "experiences": [
+    {
+      "title": "Software Engineering Intern - Munic",
+      "context": "Internship",
+      "description": [
+        "Designed and developed an end-to-end automated testing framework in Python.",
+        "Implemented a modular and scalable architecture allowing easy integration of new tests.",
+        "Developed unit and end-to-end tests to ensure system robustness and reliability.",
+        "Built a Streamlit dashboard to visualize testing results and execution metrics.",
+        "Deployed documentation and results using GitHub Pages."
+      ],
+      "technologies": [
+        "Python",
+        "Testing",
+        "Streamlit",
+        "GitHub Pages",
+        "Automation"
+      ]
+    },
+    {
+      "title": "OAPIA - AI MCQ Generator",
+      "context": "AI Project",
+      "description": [
+        "Developed an AI system capable of generating multiple-choice questions from educational documents.",
+        "Implemented a Retrieval-Augmented Generation (RAG) pipeline using two local LLMs.",
+        "Built a dual-model architecture for document analysis and question generation.",
+        "Containerized the entire application using Docker for reproducibility and deployment."
+      ],
+      "technologies": ["Python", "LLM", "RAG", "Docker", "AI"]
+    },
+    {
+      "title": "CinéGraph - Movie Recommendation System",
+      "context": "Data Science Project",
+      "description": [
+        "Developed a movie recommendation system based on collaborative filtering techniques.",
+        "Integrated graph algorithms using NetworkX to improve recommendation quality.",
+        "Built interactive visualizations to analyze relationships between users and movies.",
+        "Optimized data processing to handle large-scale datasets."
+      ],
+      "technologies": [
+        "Python",
+        "NumPy",
+        "Pandas",
+        "NetworkX",
+        "Matplotlib",
+        "Seaborn"
+      ]
+    },
+    {
+      "title": "Animal Image Classifier - Deep Learning",
+      "context": "Machine Learning Project",
+      "description": [
+        "Developed a deep learning model for animal image classification using PyTorch.",
+        "Implemented full model fine-tuning and transfer learning approaches.",
+        "Built data preprocessing, training, and evaluation pipelines.",
+        "Visualized model performance and predictions through interactive notebooks."
+      ],
+      "technologies": ["Python", "PyTorch", "Deep Learning", "Machine Learning"]
+    },
+    {
+      "title": "RobinAI - Smart Water Management Platform",
+      "context": "Hackathon Project",
+      "description": [
+        "Designed an AI-powered platform to monitor and optimize household water consumption.",
+        "Proposed machine learning models to predict water usage based on historical data.",
+        "Designed integrations with smart home devices for coordinated resource management.",
+        "Developed the business model and product strategy using a Business Model Canvas."
+      ],
+      "technologies": [
+        "AI",
+        "Machine Learning",
+        "Data Analysis",
+        "Entrepreneurship"
+      ]
+    }
+  ],
+  "current_status": "I'm currently studying computer science, with a focus on machine learning and backend development.<br /> I enjoy building intelligent systems, APIs, and scalable applications that solve real-world problems.",
+  "like_title": "What I like to do",
+  "like": "- Machine learning models<br/> - Dockerized APIs<br/>- AI-powered applications<br/>- Create something really used after and not only here to keep busy myself<br/>",
+  "currently_doing": "What am I currently doing",
+  "doing": "- Learning Java & advanced backend concepts<br/>- Working on ML projects with PyTorch<br/>",
+  "contact_text": "Feel free to reach out for more informations, or just to connect.",
+  "personal_mail": "Personal email",
+  "academic_mail": "Academic email",
+  "LinkedIn": "Visit my LinkedIn",
+  "skills": {
+    "titles": {
+      "hardSkills": "Hard Skills",
+      "softSkills": "Soft Skills"
+    },
+    "hardSkills": {
+      "python": "Python",
+      "java": "Java",
+      "javascriptReact": "JavaScript / React",
+      "machineLearning": "Machine Learning",
+      "webDevelopment": "Web Development",
+      "linuxNetworks": "Linux & Networks"
+    },
+    "softSkills": {
+      "problemSolving": "Problem-solving",
+      "teamworkCollaboration": "Teamwork & Collaboration",
+      "projectManagement": "Project Management",
+      "communication": "Communication",
+      "adaptability": "Adaptability",
+      "analyticalMindset": "Analytical mindset"
+    }
+  },
+  "formations": {
+    "title": "Education",
+    "list": [
+      {
+        "title": "EPITA - Work-Study Programme in Computer Science",
+        "period": "September 2026 - August 2029",
+        "details": ["Not started yet"]
+      },
+      {
+        "title": "Griffith College Dublin - Bachelor Degree in Computing",
+        "period": "September 2025 - June 2026",
+        "details": [
+          "Development of complex applications and interfaces.",
+          "System and network administration on Linux.",
+          "Applied AI project experience: built a local AI agent using multiple LLMs."
+        ]
+      },
+      {
+        "title": "IA Institut - Digital Business & Data Science",
+        "period": "September 2023 - June 2026",
+        "details": [
+          "Data analysis, visualization, and Python programming for projects.",
+          "Machine learning fundamentals and database management.",
+          "Web development, cloud technologies, AI governance, and project management."
+        ]
+      }
+    ]
+  }
+}
