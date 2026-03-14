@@ -1,38 +1,28 @@
 import "./css/Contact.css";
+import { useTranslation } from "react-i18next";
 
 const Contact = () => {
+  const {t} = useTranslation()
   return (
     <section className="contact">
       <h1 className="contact-title">Contact</h1>
 
-      <p className="contact-text">
-        Feel free to reach out for collaborations, opportunities, or just to connect.
-      </p>
+      <p className="contact-text">{t("contact_text")}</p>
 
       <div className="contact-list">
         <p>
-          📧 Personal email:{" "}
-          <a href="mailto:kilianmeddas94380@gmail.com">
-            kilianmeddas94380@gmail.com
-          </a>
+          📧 {t("personal_mail")}:{" "}
+          <a href="mailto:meddas.kilian@gmail.com">meddas.kilian@gmail.com</a>
         </p>
 
         <p>
-          🎓 Academic email:{" "}
-          <a href="mailto:kilian.meddas@epita.fr">
-            kilian.meddas@epita.fr
-          </a>
+          🎓 {t("academic_mail")}:{" "}
+          <a href="mailto:kilian.meddas@epita.fr">kilian.meddas@epita.fr</a>
         </p>
 
         <p>
           💼 LinkedIn:{" "}
-          <a
-            href="linkedin.com/in/kilian-meddas-6b361525b"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Visit my LinkedIn
-          </a>
+          <a href="https://linkedin.com/in/kilian-meddas-6b361525b" target="_blank" rel="noopener noreferrer">{t("LinkedIn")}</a>
         </p>
       </div>
     </section>

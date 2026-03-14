@@ -11,8 +11,8 @@ const MenuBar = () => {
       <div className="nav">
           <ul>
                 <li><NavLink to="/">{t("about")}</NavLink></li>
-                <li><NavLink to="/formations">{t("formations")}</NavLink></li>
-                <li><NavLink to="/skills">{t("skills")}</NavLink></li>
+                <li><NavLink to="/formations">{t("formation")}</NavLink></li>
+                <li><NavLink to="/skills">{t("skill")}</NavLink></li>
                 <li><NavLink to="/experiences">{t("experiences_title")}</NavLink></li>
                 <li><NavLink to="/contact">{t("contact")}</NavLink></li>
                 <li><LanguageSelector /></li> 

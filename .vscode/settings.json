@@ -1,0 +1,10 @@
+{
+  // Use Prettier as the default formatter and format on save.
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+
+  // Ensure JSON files use Prettier as well.
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}

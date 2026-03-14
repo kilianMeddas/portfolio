@@ -1,19 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.ec014284.css",
-    "main.js": "/portfolio/static/js/main.f08822d7.js",
-    "static/js/453.a7d99afe.chunk.js": "/portfolio/static/js/453.a7d99afe.chunk.js",
+    "main.css": "/portfolio/static/css/main.78902f4c.css",
+    "main.js": "/portfolio/static/js/main.e5cbaa7b.js",
+    "static/js/453.635f5f07.chunk.js": "/portfolio/static/js/453.635f5f07.chunk.js",
+    "static/js/38.61f6c04b.chunk.js": "/portfolio/static/js/38.61f6c04b.chunk.js",
     "static/media/me.jpg": "/portfolio/static/media/me.d5a690b19d2f9ec5f42b.jpg",
     "static/media/EPITA.png": "/portfolio/static/media/EPITA.8e98fd0c5e5272dccc10.png",
     "static/media/Griffith.jpg": "/portfolio/static/media/Griffith.824cac71d7d7411bbbd3.jpg",
     "static/media/IA_Institut.png": "/portfolio/static/media/IA_Institut.faec7a396eda819c7689.png",
     "index.html": "/portfolio/index.html",
-    "main.ec014284.css.map": "/portfolio/static/css/main.ec014284.css.map",
-    "main.f08822d7.js.map": "/portfolio/static/js/main.f08822d7.js.map",
-    "453.a7d99afe.chunk.js.map": "/portfolio/static/js/453.a7d99afe.chunk.js.map"
+    "main.78902f4c.css.map": "/portfolio/static/css/main.78902f4c.css.map",
+    "main.e5cbaa7b.js.map": "/portfolio/static/js/main.e5cbaa7b.js.map",
+    "453.635f5f07.chunk.js.map": "/portfolio/static/js/453.635f5f07.chunk.js.map",
+    "38.61f6c04b.chunk.js.map": "/portfolio/static/js/38.61f6c04b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ec014284.css",
-    "static/js/main.f08822d7.js"
+    "static/css/main.78902f4c.css",
+    "static/js/main.e5cbaa7b.js"
   ]
 }
