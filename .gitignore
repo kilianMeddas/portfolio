@@ -1,0 +1,3 @@
+node_modules
+# Ignore Zone.Identifier files
+*.Zone.Identifier

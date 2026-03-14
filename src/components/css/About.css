@@ -1,0 +1,32 @@
+.logo{
+    text-align: center;
+}
+.logo img {
+    max-width: 15%;
+    
+}
+
+
+.logo img.Ecole{
+    padding: 20px 20px;
+    max-width: 10%;
+}
+
+.logo img.EPITA{
+    padding: 20px 20px;
+    max-width: 10%;
+}
+
+section {
+    display: block; 
+    width: fit-content;
+    margin: 15px auto; 
+    background-color: rgb(135, 135, 135);
+    opacity: 900% ;
+    padding: 1px 4px;
+    text-align: justify ;
+    border-radius: 4px;
+}
+section h2{
+    text-align: center;
+}
