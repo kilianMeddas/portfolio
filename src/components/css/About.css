@@ -1,32 +1,67 @@
-.logo{
-    text-align: center;
+.logo {
+  text-align: center;
 }
+
+/* Logo principal */
 .logo img {
-    max-width: 15%;
-    
+  max-width: 15%;
 }
 
-
-.logo img.Ecole{
-    padding: 20px 20px;
-    max-width: 10%;
+/* Logos écoles */
+.logo img.Ecole,
+.logo img.EPITA {
+  padding: 20px;
+  max-width: 10%;
 }
 
-.logo img.EPITA{
-    padding: 20px 20px;
-    max-width: 10%;
-}
-
+/* Section texte */
 section {
-    display: block; 
-    width: fit-content;
-    margin: 15px auto; 
-    background-color: rgb(135, 135, 135);
-    opacity: 900% ;
-    padding: 1px 4px;
-    text-align: justify ;
-    border-radius: 4px;
+  display: block;
+  width: fit-content;
+  max-width: 900px;
+  margin: 15px auto;
+  background-color: rgb(135, 135, 135);
+  opacity: 0.9;
+  padding: 10px 20px;
+  text-align: justify;
+  border-radius: 4px;
 }
-section h2{
-    text-align: center;
+
+section h2 {
+  text-align: center;
+}
+
+/* Pour tablette */
+@media (max-width: 768px) {
+  .logo img {
+    max-width: 30%;
+  }
+
+  .logo img.Ecole,
+  .logo img.EPITA {
+    max-width: 20%;
+  }
+
+  section {
+    max-width: 90%;
+    padding: 10px 15px;
+  }
+}
+
+/* Pour téléphone */
+@media (max-width: 480px) {
+  .logo img {
+    max-width: 40%;
+  }
+
+  .logo img.Ecole,
+  .logo img.EPITA {
+    max-width: 30%;
+    padding: 10px;
+  }
+
+  section {
+    max-width: 95%;
+    padding: 10px;
+  }
 }

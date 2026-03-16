@@ -6,19 +6,23 @@
 
 .formations {
   min-height: 100vh;
+
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
+
   gap: 20px;
+
   max-width: 700px;
   margin: 50px auto;
+  padding: 0 20px;
 }
 
 .formations-title {
   font-size: 2.8rem;
   color: #ffffff;
   margin-bottom: 30px;
+  text-align: center;
 }
 
 .formation {
@@ -26,8 +30,10 @@
   background: white;
   border-radius: 12px;
   padding: 25px;
+
   position: relative;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
 }
 
@@ -49,15 +55,20 @@
   position: absolute;
   top: 20px;
   right: 20px;
+
   height: 35px;
   width: 35px;
+
   border-radius: 50%;
   border: none;
+
   display: flex;
   align-items: center;
   justify-content: center;
+
   background: #152c62;
   color: white;
+
   cursor: pointer;
   transition: 0.2s ease;
 }
@@ -68,4 +79,37 @@
 
 .formation.active .toggle {
   background: #ff4d4d;
+}
+
+/* TABLET */
+
+@media (max-width: 768px) {
+  .formations-title {
+    font-size: 2.2rem;
+  }
+
+  .formation {
+    padding: 20px;
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 480px) {
+  .formations {
+    margin: 30px auto;
+  }
+
+  .formations-title {
+    font-size: 1.8rem;
+  }
+
+  .formation-title {
+    font-size: 1rem;
+  }
+
+  .toggle {
+    height: 30px;
+    width: 30px;
+  }
 }

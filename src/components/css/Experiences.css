@@ -6,13 +6,16 @@
 
 .experiences {
   min-height: 100vh;
+
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: flex-start;
+
   gap: 20px;
+
   max-width: 700px;
   margin: 50px auto;
+  padding: 0 20px;
 }
 
 .experiences-title {
@@ -23,11 +26,15 @@
 
 .experience {
   width: 100%;
+
   background: white;
   border-radius: 12px;
+
   padding: 25px;
+
   position: relative;
-  box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
   transition: all 0.3s ease;
 }
 
@@ -41,23 +48,30 @@
   margin-top: 15px;
   line-height: 1.5;
   color: #333;
+
   list-style: disc;
   padding-left: 20px;
 }
 
 .toggle {
   position: absolute;
+
   top: 20px;
   right: 20px;
+
   height: 35px;
   width: 35px;
+
   border-radius: 50%;
   border: none;
+
   display: flex;
   align-items: center;
   justify-content: center;
+
   background: #152c62;
   color: white;
+
   cursor: pointer;
   transition: 0.2s ease;
 }
@@ -78,9 +92,50 @@
 
 .badge {
   display: inline-block;
+
   background: #eee;
+
   padding: 6px 12px;
+
   border-radius: 12px;
+
   font-size: 0.9rem;
   color: #152c62;
+}
+
+/* TABLET */
+
+@media (max-width: 768px) {
+  .experiences-title {
+    font-size: 2.2rem;
+  }
+
+  .experience {
+    padding: 20px;
+  }
+}
+
+/* MOBILE */
+
+@media (max-width: 480px) {
+  .experiences {
+    margin: 30px auto;
+  }
+
+  .experiences-title {
+    font-size: 1.8rem;
+  }
+
+  .experience-title {
+    font-size: 1rem;
+  }
+
+  .toggle {
+    height: 30px;
+    width: 30px;
+  }
+
+  .badge {
+    font-size: 0.8rem;
+  }
 }
